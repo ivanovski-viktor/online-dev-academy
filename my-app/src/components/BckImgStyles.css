@@ -40,16 +40,16 @@
     font-size: 1.4rem;
     font-weight: 100;
     text-transform: uppercase;
-    margin: 1rem;
 }
 .bck .btn{
     margin: 1rem 0.2rem;
 }
 .content .btn{
-    margin: 16rem 0.2rem;
+    margin: 1rem 0.2rem;
 }
 .btn-margin{
     margin: 2.5rem;
+    display: flex;
 }
 @media screen and (max-width:640px) {
     .bck .content .h1{
