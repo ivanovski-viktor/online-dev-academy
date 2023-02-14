@@ -1,0 +1,41 @@
+.bck-img{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    position: relative;
+}
+
+.bck-img::before{
+    content: "";
+    background: url("https://media.istockphoto.com/id/1147195672/photo/focused-developer-coding-on-computer-monitors-working-late-in-office.jpg?s=612x612&w=0&k=20&c=R6oPQ_vkXAxCzpi4UFsN28pdU0C0LJL8JLAX-HwO90Q=");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bck-img h1{
+    font-size: 2.4rem;
+}
+.bck-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+@media screen and (max-width:640px) {
+    .bck-img h1{
+        font-size: 2rem;
+    }
+}
