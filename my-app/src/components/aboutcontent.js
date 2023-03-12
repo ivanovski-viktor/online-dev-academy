@@ -1,7 +1,6 @@
 import "./AboutContentStyles.css"
 
 import React from 'react'
-import { Link } from "react-router-dom"
 import frontend from "../assets/Front-End.jpg";
 import backend from "../assets/back-end.png";
 
